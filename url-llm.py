@@ -8,7 +8,7 @@ from langchain.chains import LLMChain
 st.title("News Research tool 📈")
 
 main_placeholder = st.empty()
-api_key = "AIzaSyD4k8k0c3LDwcGmu1z8fbxQ8TOWxYU__-Q"
+api_key = "Api key"
 
 llm = ChatGooglePalm(google_api_key=api_key, temperature=0.7, max_tokens=500)
 vector_file_path = "vector_index-1"
